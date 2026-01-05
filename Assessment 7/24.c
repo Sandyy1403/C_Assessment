@@ -1,20 +1,23 @@
 #include<stdio.h>
-int main(){
-    int input,rev=0;
-    scanf("%d",&input);
-    while(input!=0){
+void two_s(int input ){
+ int rev=0;
+    for(input;input!=0;input=input/10){
         rev+=input%10;
         rev*=10;
-        input=input/10;
     }int count=0;
     rev/=10;
-    while(rev!=0){
+    for(rev;rev!=0;rev=rev/10){
         input=0;
         input+=rev%10;
         input*=10;
         input+=(rev/10)%10;
     if(input==16||input==81||input==64||input==49||input==36||input==25){count++;}
-    rev=rev/10;
     }printf("%d",count);
+
+}
+int main(){
+    int input;
+    scanf("%d",&input);
+    two_s(input);
     return 0;
 }
