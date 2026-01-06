@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//
 int main()
 {
     int arr[100],sum=0;
@@ -10,5 +10,5 @@ int main()
     {
          sum=sum+arr[i];
     }
-    printf("%d",sum/5);
+    printf("%d",sum/5) ;
 }
