@@ -1,3 +1,4 @@
+//get a main string and a substring and find where the main string occur 
 #include<string.h>
 #include<stdio.h>
 int sub(char *main,char *sub){printf("main string:");

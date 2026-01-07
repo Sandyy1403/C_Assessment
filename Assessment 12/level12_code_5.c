@@ -1,3 +1,5 @@
+//get upto 50 digit number as a string input
+//get 2 such inputs and print the multiplication  of the two inputs 
 #include <stdio.h>
 #include <string.h>
 

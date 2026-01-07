@@ -1,3 +1,4 @@
+//get a string as input using gets function and print the number of words in that string 
 #include<string.h>
 #include<stdio.h>
 int main(){

@@ -1,8 +1,10 @@
+//get upto 50 digit number as a string input
+//get 2 such inputs and print the sum of the two inputs 
 #include<stdio.h>
 #include<string.h>
 void print(char *ans){
     int flag=0;
-    int size=strlen(ans); 
+    int size=strlen(ans);
     for (int i=0;i<size;i++){
         if(flag==0 && ans[i]==48){
         }
@@ -19,7 +21,6 @@ void add(char *a,char *b,char * ans){
     ans[big+1]='\0';
     for(x;x>=0 || y>=0 ;big--){int o=0;
         int p=0;
-         
         if(x>=0 && a[x]>=48 && a[x]<=57) { o=a[x]-48;}
         if(y>=0 && b[y]>=48 && b[y]<=57){ p=b[y]-48;}
        int sum=p+o+carry;

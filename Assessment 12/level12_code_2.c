@@ -1,3 +1,4 @@
+//get a string and a character and print where the character occured in that string (index)
 #include<stdio.h>
 #include<string.h>
 int main(){
